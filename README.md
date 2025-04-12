@@ -7,6 +7,13 @@
     - Supported Datasets
         - Malaria Annual Confirmed Cases
         - ...
+## Database
+- Structure after first run <br>
+
+    ![](docs/app_etl_erd.png)
+
+- Connect to database
+    - The database is accessible on `localhost` at the port and credentials specified in [env](.env).
 
 ## Project Structure
 - docs: Project documentation lives in here.
@@ -58,7 +65,7 @@
 - Debugging
     - Running in debug mode and debug with VSCode:
         - Open the "Run and Debug" view.
-        - Click the green play button.<br>
+        - Click the green play button.<br>  
             ![start system output](./docs/vscode_debugging.png)<br>
         - Allow debugging without frozen modules by clicking "Debug Anyway" once the debugger is installed and ready.
             ![bypass frozen modueles](./docs/vscode_debugging_frozen.png)
